@@ -1,4 +1,4 @@
-name := "undefined"
+name := "flaky-tests-finder"
 
 version := "1.0.0-SNAPSHOT"
 
