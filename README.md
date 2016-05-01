@@ -1,6 +1,6 @@
-# scala-boilerplate
-Boilerplate for a typical SBT Scala project with Scala-IDE support
+# flaky-tests-finder
+Finds flaky tests in ScalaIDE
 
 ## Usage
-Clone or pull the project, adapt the SBT build files and the LICENSE according to your needs,
-run `$ sbt eclipse` and import everything into Scala-IDE.
+Clone the project, adapt `runTests.bash` and `FlakyTestsFinder` according to your needs
+and run `FlakyTestsFinder`.
