@@ -1,0 +1,982 @@
+g -feature to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -g to vars (vars)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -optimise to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -target to jvm-1.6 (jvm-1.6)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -unchecked to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -verbose to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -nowarn to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,363 DEBUG [main] - ScalaProject - [test-simple-output-projects-2] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,365 DEBUG [main] - EclipseSbtBuildManager - 
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+2015-11-17 16:20:28,365 DEBUG [main] - EclipseSbtBuildManager - All initially invalidated sources: Set()
+
+2015-11-17 16:20:28,366 DEBUG [main] - EclipseSbtBuildManager - Created transactional ClassfileManager with tempDir = /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/test-simple-output-projects-2/.tmpBin
+2015-11-17 16:20:28,366 DEBUG [main] - EclipseSbtBuildManager - Removing the temporary directory used for backing up class files: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/test-simple-output-projects-2/.tmpBin
+2015-11-17 16:20:28,369 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,369 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,369 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,369 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,370 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,373 DEBUG [main] - ScalaProject - Added output folder: F/todobuilder/src: F/todobuilder/bin
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,375 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,376 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,376  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:28,376  INFO [main] - ScalaProject - BM: SBT enhanced Build Manager for SpecificScalaVersion(2,11,8,Development(20150915-122802-bb52b24bab)) Scala library
+2015-11-17 16:20:28,376  INFO [main] - ScalaBuilder - Building project todobuilder
+2015-11-17 16:20:28,377  INFO [main] - EclipseSbtBuildManager - No changes in project, running the builder for potential transitive changes.
+2015-11-17 16:20:28,378  INFO [main] - EclipseSbtBuildManager - Running compiler using Scala SpecificScalaVersion(2,11,8,Development(20150915-122802-bb52b24bab)): 
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-compiler-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-compiler.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors.source-2.11.8.v20150915-122802-bb52b24bab.jar)))
+2015-11-17 16:20:28,381 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,382 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,386 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,388 DEBUG [main] - EclipseSbtBuildManager - 
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+2015-11-17 16:20:28,388 DEBUG [main] - EclipseSbtBuildManager - All initially invalidated sources: Set()
+
+2015-11-17 16:20:28,389 DEBUG [main] - EclipseSbtBuildManager - Created transactional ClassfileManager with tempDir = /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/.tmpBin
+2015-11-17 16:20:28,389 DEBUG [main] - EclipseSbtBuildManager - Removing the temporary directory used for backing up class files: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/.tmpBin
+2015-11-17 16:20:28,390  INFO [main] - EclipseSbtBuildManager - Running compiler using Scala SpecificScalaVersion(2,11,8,Development(20150915-122802-bb52b24bab)): 
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-compiler-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-compiler.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors.source-2.11.8.v20150915-122802-bb52b24bab.jar)))
+2015-11-17 16:20:28,393 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,393 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,393 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,393 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,394 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,398 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,400 DEBUG [main] - EclipseSbtBuildManager - 
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin/test/foo/ClassFoo.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/src/test/foo/ClassA.scala)
+	binary dep: Set()
+	external source: Set()
+2015-11-17 16:20:28,400 DEBUG [main] - EclipseSbtBuildManager - All initially invalidated sources: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/src/test/foo/ClassA.scala)
+
+2015-11-17 16:20:28,401 DEBUG [main] - EclipseSbtBuildManager - Created transactional ClassfileManager with tempDir = /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/.tmpBin
+2015-11-17 16:20:28,401 DEBUG [main] - EclipseSbtBuildManager - Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+2015-11-17 16:20:28,401 DEBUG [main] - EclipseSbtBuildManager - About to delete class files:
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin/test/foo/ClassFoo.class
+2015-11-17 16:20:28,401 DEBUG [main] - EclipseSbtBuildManager - We backup classs files:
+
+2015-11-17 16:20:28,401  INFO [main] - EclipseSbtBuildManager - Compiling 1 Scala source to /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin...
+2015-11-17 16:20:28,432 DEBUG [main] - EclipseSbtBuildManager - Running cached compiler 4d8dfd89, interfacing (CompilerInterface) with Scala compiler version 2.11.8-20150915-122802-bb52b24bab
+2015-11-17 16:20:28,432 DEBUG [main] - EclipseSbtBuildManager - Calling Scala compiler with arguments  (CompilerInterface):
+	-javabootclasspath
+	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+	-javaextdirs
+	 
+	-bootclasspath
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+	-target:jvm-1.5
+	-encoding
+	UTF-8
+	-classpath
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin
+2015-11-17 16:20:28,802 DEBUG [main] - EclipseSbtBuildManager - Scala compilation took 0.400602908 s
+2015-11-17 16:20:28,803 DEBUG [main] - EclipseSbtBuildManager - Registering generated classes:
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin/test/foo/ClassFoo.class
+2015-11-17 16:20:28,804 DEBUG [main] - EclipseSbtBuildManager - New invalidations:
+	Set()
+2015-11-17 16:20:28,804 DEBUG [main] - EclipseSbtBuildManager - Initial set of included nodes: Set()
+2015-11-17 16:20:28,804 DEBUG [main] - EclipseSbtBuildManager - Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+2015-11-17 16:20:28,804 DEBUG [main] - EclipseSbtBuildManager - All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+2015-11-17 16:20:28,804 DEBUG [main] - EclipseSbtBuildManager - Removing the temporary directory used for backing up class files: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/.tmpBin
+2015-11-17 16:20:28,808  INFO [main] - EclipseSbtBuildManager - No changes in project, running the builder for potential transitive changes.
+2015-11-17 16:20:28,809  INFO [main] - EclipseSbtBuildManager - Running compiler using Scala SpecificScalaVersion(2,11,8,Development(20150915-122802-bb52b24bab)): 
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-compiler-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-compiler.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect.source-2.11.8.v20150915-122802-bb52b24bab.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors.source/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors.source-2.11.8.v20150915-122802-bb52b24bab.jar)))
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,813 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,814 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,817 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,817 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,817 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,817 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/builder-sub/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -deprecation to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -feature to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -g to vars (vars)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -optimise to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -target to jvm-1.5 (jvm-1.5)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -unchecked to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -verbose to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -nowarn to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,818 DEBUG [main] - ScalaProject - [todobuilder] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:28,820 DEBUG [main] - EclipseSbtBuildManager - 
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+2015-11-17 16:20:28,820 DEBUG [main] - EclipseSbtBuildManager - All initially invalidated sources: Set()
+
+2015-11-17 16:20:28,821 DEBUG [main] - EclipseSbtBuildManager - Created transactional ClassfileManager with tempDir = /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/.tmpBin
+2015-11-17 16:20:28,821 DEBUG [main] - EclipseSbtBuildManager - Removing the temporary directory used for backing up class files: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/todobuilder/.tmpBin
+2015-11-17 16:20:28,861  INFO [main] - ScalaProject - shutting down compilers for scopeConfiguration
+2015-11-17 16:20:28,861 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project scopeConfiguration
+2015-11-17 16:20:28,861  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: scopeConfiguration
+2015-11-17 16:20:28,919 DEBUG [main] - ScalaPlugin - package fragment added or removed: src
+2015-11-17 16:20:28,920  INFO [main] - ScalaLibraryClasspathContainerInitializer - Initializing classpath container Scala library container: ()
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): 
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): resources.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): rt.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): jsse.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): jce.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): charsets.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): rhino.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): localedata.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): sunjce_provider.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): java-atk-wrapper.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): dnsns.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): zipfs.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): sunpkcs11.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): icedtea-sound.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): src
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,928  INFO [main] - ScalaPlugin - package fragment root changed (resetting presentation compiler): org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -feature to false (false)
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -g to vars (vars)
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -optimise to false (false)
+2015-11-17 16:20:28,998 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -target to jvm-1.6 (jvm-1.6)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -no-specialization to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -explaintypes to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -nowarn to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xcheckinit to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xelide-below to -2147483648 (-2147483648)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xlog-implicits to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xdisable-assertions to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xno-uescape to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfatal-warnings to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:28,999 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,001  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,001  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,001  INFO [main] - ScalaProject - Resetting compilers due to classpath change.
+2015-11-17 16:20:29,001  INFO [main] - ScalaProject - resetting compilers!  project: OutlineModelTest$
+2015-11-17 16:20:29,004  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,004  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,004 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,005 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,006 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,006  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,124 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,124 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,128 DEBUG [main] - ScalaPlugin - package fragment added or removed: testTypeParameter
+2015-11-17 16:20:29,129 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,156 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,156 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,156  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,158  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,158  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,158 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,160 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,160  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,278 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,278 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,279 DEBUG [main] - ScalaPlugin - package fragment added or removed: testTruncate
+2015-11-17 16:20:29,280 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,283 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,283 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,283  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,285  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,285  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,285 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,287 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,287  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,405 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,405 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,406 DEBUG [main] - ScalaPlugin - package fragment added or removed: x
+2015-11-17 16:20:29,407 DEBUG [main] - ScalaPlugin - package fragment added or removed: x.y
+2015-11-17 16:20:29,407 DEBUG [main] - ScalaPlugin - package fragment added or removed: x.y.z
+2015-11-17 16:20:29,408 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,410 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,410 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,410  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,412  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,412  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,412 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,414 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,414  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,531 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,531 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,532 DEBUG [main] - ScalaPlugin - package fragment added or removed: testType
+2015-11-17 16:20:29,534 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,537 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,537 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,537  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,538  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,538  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,538 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,540 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,541 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,541  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,657 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,658 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,659 DEBUG [main] - ScalaPlugin - package fragment added or removed: testFuncArg
+2015-11-17 16:20:29,660 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,667 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,667 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,667  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,668  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,668  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,669 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,670 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,670 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,670 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,670 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,671 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,671  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,790 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,790 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,792 DEBUG [main] - ScalaPlugin - package fragment added or removed: classCtor
+2015-11-17 16:20:29,793 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,796 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,797 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,797  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,798  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,798  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,798 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,800 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,800  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:29,952 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:29,952 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,953 DEBUG [main] - ScalaPlugin - package fragment added or removed: testInnerFunc
+2015-11-17 16:20:29,955 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:29,958 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:29,958 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:29,958  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:29,959  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:29,959  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:29,960 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:29,961 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:29,961 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:29,961 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,961 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:29,961 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:29,962 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:29,962  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:30,079 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:30,079 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,080 DEBUG [main] - ScalaPlugin - package fragment added or removed: testClassOnly
+2015-11-17 16:20:30,082 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:30,084 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:30,084 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,085  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:30,086  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:30,086  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:30,086 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:30,088 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:30,088  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:30,206 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:30,206 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,207 DEBUG [main] - ScalaPlugin - package fragment added or removed: testTupleVal
+2015-11-17 16:20:30,209 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:30,212 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:30,212 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,212  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:30,214  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:30,214  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:30,214 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:30,216 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:30,216  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:30,336 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:30,336 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,337 DEBUG [main] - ScalaPlugin - package fragment added or removed: testImport
+2015-11-17 16:20:30,338  INFO [Java indexing] - ScalaSourceIndexer - Indexing document: /OutlineModelTest$/src/testTypeParameter/testfile.scala
+2015-11-17 16:20:30,338 DEBUG [Java indexing] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:30,338 DEBUG [Java indexing] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,338  INFO [Java indexing] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:30,339 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:30,340  WARN [Java indexing] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:30,340  WARN [Java indexing] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:30,340 DEBUG [Java indexing] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:30,342 DEBUG [Java indexing] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:30,342  INFO [Java indexing] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:30,460 DEBUG [Java indexing] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:30,460 DEBUG [Java indexing] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,460 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:30,460 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,461  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:30,462  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:30,462  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:30,462 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:30,464 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:30,464  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:30,522  INFO [Java indexing] - ScalaSourceIndexer - Indexing document: /OutlineModelTest$/src/testTruncate/testfile.scala
+2015-11-17 16:20:30,581 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:30,581 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,583 DEBUG [main] - ScalaPlugin - package fragment added or removed: testBackTicks
+2015-11-17 16:20:30,585 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:30,589 DEBUG [main] - PresentationCompilerProxy - Restarting presentation compiler. The following units will be reloaded: List()
+2015-11-17 16:20:30,589 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,589  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+2015-11-17 16:20:30,591  WARN [main] - ScalaProject - Project OutlineModelTest$ has platform default sourceLevel.
+2015-11-17 16:20:30,591  WARN [main] - ScalaProject - Project OutlineModelTest$ runs on platform default installation.
+2015-11-17 16:20:30,591 DEBUG [main] - ScalaProject - Added output folder: F/OutlineModelTest$/src: F/OutlineModelTest$/bin
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - javaextdirs:  
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -deprecation to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -unchecked to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -verbose to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xexperimental to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xfuture to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-debug to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-verbose to false (false)
+2015-11-17 16:20:30,593 DEBUG [main] - ScalaProject - [OutlineModelTest$] initializing -Ypresentation-delay to 0 (0)
+2015-11-17 16:20:30,593  INFO [main] - ScalaProject - setting additional parameters: 
+2015-11-17 16:20:30,634  INFO [Java indexing] - ScalaSourceIndexer - Indexing document: /OutlineModelTest$/src/testTypeParameter/testfile.scala
+2015-11-17 16:20:30,710 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-library-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-reflect-2.11.8.v20150915-122802-bb52b24bab.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/m2repo/p2/osgi/bundle/org.scala-lang.scala-actors/2.11.8.v20150915-122802-bb52b24bab/org.scala-lang.scala-actors-2.11.8.v20150915-122802-bb52b24bab.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/work/data/OutlineModelTest$/src)
+2015-11-17 16:20:30,711 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,712 DEBUG [main] - ScalaPlugin - package fragment added or removed: testFuncArg1
+2015-11-17 16:20:30,713 DEBUG [main] - ScalaPlugin - added compilation unit testfile.scala
+2015-11-17 16:20:30,735  INFO [main] - ScalaProject - shutting down compilers for OutlineModelTest$
+2015-11-17 16:20:30,735 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project OutlineModelTest$
+2015-11-17 16:20:30,735  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: OutlineModelTest$
+Tests run: 1032, Failures: 4, Errors: 0, Skipped: 45, Time elapsed: 410.963 sec <<< FAILURE!
+
+Results :
+
+Failed tests:   noAccessToPrivateThisOutsideOfInstance(org.scalaide.core.ui.completion.AccessibilityTests): There are expected completions that do not exist. expected:<[secretPrivate(): Unit
+  noAccessToPrivateInSubclass(org.scalaide.core.ui.completion.AccessibilityTests): There are expected completions that do not exist. expected:<[secretProtected(): Unit
+  accessToPrivateThisInsideOfInstance(org.scalaide.core.ui.completion.AccessibilityTests): There are expected completions that do not exist. expected:<[secretPrivate(): Unit
+  noAccessToPrivateInUnrelatedClass(org.scalaide.core.ui.completion.AccessibilityTests): There are expected completions that do not exist. expected:<[secretProtectedInPackage](): Unit> but was:<[protected[noAccessToPrivateInUnrelatedClass] secretProtectedInPackage(): Unit
+
+Tests run: 1032, Failures: 4, Errors: 0, Skipped: 45
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.scala-ide.sdt.build ........................... SUCCESS [1.263s]
+[INFO] org.scala-ide.sdt.aspects ......................... SUCCESS [13.137s]
+[INFO] org.scala-ide.sdt.core ............................ SUCCESS [1:47.640s]
+[INFO] org.scala-ide.sdt.core.tests ...................... FAILURE [8:03.760s]
+[INFO] org.scala-ide.sdt.spy ............................. SKIPPED
+[INFO] org.scala-ide.sdt.debug ........................... SKIPPED
+[INFO] org.scala-ide.sdt.debug.tests ..................... SKIPPED
+[INFO] org.scala-ide.sdt.debug.expression ................ SKIPPED
+[INFO] org.scala-ide.sdt.debug.expression.tests .......... SKIPPED
+[INFO] org.scala-ide.sdt.weaving.feature ................. SKIPPED
+[INFO] org.scala-ide.sdt.feature ......................... SKIPPED
+[INFO] org.scala-ide.sdt.dev.feature ..................... SKIPPED
+[INFO] org.scala-ide.sdt.source.feature .................. SKIPPED
+[INFO] org.scala-ide.sdt.update-site ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11:06.925s
+[INFO] Finished at: Tue Nov 17 16:20:32 CET 2015
+[INFO] Final Memory: 153M/642M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.eclipse.tycho:tycho-surefire-plugin:0.21.0:test (default-test) on project org.scala-ide.sdt.core.tests: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-luna/scala-ide/org.scala-ide.sdt.core.tests/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.scala-ide.sdt.core.tests
++ [[ eclipse-luna == \e\c\l\i\p\s\e\-\l\u\n\a ]]
++ ssh scalaide@scala-ide.dreamhosters.com 'mkdir -p scala-ide.dreamhosters.com/pr-builds/scala-ide/pr-1032/2.11.x'
++ ssh scalaide@scala-ide.dreamhosters.com 'rm -rf scala-ide.dreamhosters.com/pr-builds/scala-ide/pr-1032/2.11.x/*'
++ scp -r org.scala-ide.sdt.update-site/target/site scalaide@scala-ide.dreamhosters.com:scala-ide.dreamhosters.com/pr-builds/scala-ide/pr-1032/2.11.x
+org.scala-ide.sdt.update-site/target/site: No such file or directory
+Build step 'Execute shell' marked build as failure
+Recording test results
+Finished: FAILURE

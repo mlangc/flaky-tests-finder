@@ -1,0 +1,236 @@
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20151124-185958-8363c20de8/org.scala-lang.scala-reflect-2.11.8.v20151124-185958-8363c20de8.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src)
+2016-04-08 07:40:38,385 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project expr-eval-code-completion
+2016-04-08 07:40:39,247 DEBUG [main] - SimpleContentProposalProvider$ - Cannot load returned type for someNull
+com.sun.jdi.ClassNotLoadedException: Type has not been loaded
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.create(ReferenceTypeImpl.java:1435)
+	at org.eclipse.jdi.internal.TypeImpl.create(TypeImpl.java:68)
+	at org.eclipse.jdi.internal.MethodImpl.returnType(MethodImpl.java:490)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getReturnedTypeNameViaJdi(SimpleContentProposalProvider.scala:155)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:148)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:145)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:854)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1297)
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:252)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getMembersNamesViaJdi(SimpleContentProposalProvider.scala:151)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getDistinctProposalsForThisViaJdi(SimpleContentProposalProvider.scala:126)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getMembersOfThis(SimpleContentProposalProvider.scala:101)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:91)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:88)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:88)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:87)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForEvaluationContext(SimpleContentProposalProvider.scala:87)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForCurrentContext(SimpleContentProposalProvider.scala:84)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.proposalsForCurrentContext(SimpleContentProposalProvider.scala:46)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.prepareProposals(SimpleContentProposalProvider.scala:51)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.getProposals(SimpleContentProposalProvider.scala:39)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProviderIntegrationTest.testGetProposalForFieldOfTypeNull(SimpleContentProposalProviderIntegrationTest.scala:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:87)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+2016-04-08 07:40:39,364  INFO [main] - JdiExpressionEvaluator - Compiling:
+	1
+2016-04-08 07:40:39,714 DEBUG [main] - SimpleContentProposalProvider$ - Cannot load returned type for someNull
+com.sun.jdi.ClassNotLoadedException: Type has not been loaded
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.create(ReferenceTypeImpl.java:1435)
+	at org.eclipse.jdi.internal.TypeImpl.create(TypeImpl.java:68)
+	at org.eclipse.jdi.internal.MethodImpl.returnType(MethodImpl.java:490)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getReturnedTypeNameViaJdi(SimpleContentProposalProvider.scala:155)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:148)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:145)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:854)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1297)
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:252)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getMembersNamesViaJdi(SimpleContentProposalProvider.scala:151)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getDistinctProposalsForThisViaJdi(SimpleContentProposalProvider.scala:126)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getMembersOfThis(SimpleContentProposalProvider.scala:101)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:91)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:88)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:88)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:87)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForEvaluationContext(SimpleContentProposalProvider.scala:87)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForCurrentContext(SimpleContentProposalProvider.scala:84)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.proposalsForCurrentContext(SimpleContentProposalProvider.scala:46)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.prepareProposals(SimpleContentProposalProvider.scala:51)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.getProposals(SimpleContentProposalProvider.scala:39)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProviderIntegrationTest.testGetProposals(SimpleContentProposalProviderIntegrationTest.scala:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:87)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+2016-04-08 07:40:39,725  INFO [main] - SimpleContentProposalProviderIntegrationTest$ - Test SimpleContentProposalProviderIntegrationTest finished
+2016-04-08 07:40:39,726 DEBUG [ForkJoinPool-1-worker-29] - ScalaJdiEventDispatcherSubordinate - VMDisconnectEvent: 0
+2016-04-08 07:40:39,932  INFO [main] - ScalaProject - shutting down compilers for expr-eval-code-completion
+2016-04-08 07:40:39,933 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project expr-eval-code-completion
+2016-04-08 07:40:39,933  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: expr-eval-code-completion
+Tests run: 581, Failures: 1, Errors: 0, Skipped: 27, Time elapsed: 1,098.352 sec <<< FAILURE!
+
+Results :
+
+Failed tests:   org.scalaide.debug.internal.expression.features.MethodsAsFunctionsInnerObjectTest: Bad state after runToBreakpoint(typeName = debug.MethodsAsFunctions$, line = 27) expected:<SUSPENDED> but was:<TERMINATED>
+
+Tests run: 581, Failures: 1, Errors: 0, Skipped: 27
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.scala-ide.sdt.build ........................... SUCCESS [1.140s]
+[INFO] org.scala-ide.sdt.aspects ......................... SUCCESS [13.637s]
+[INFO] org.scala-ide.sdt.core ............................ SUCCESS [1:54.346s]
+[INFO] org.scala-ide.sdt.core.tests ...................... SUCCESS [9:26.679s]
+[INFO] org.scala-ide.sdt.spy ............................. SUCCESS [12.332s]
+[INFO] org.scala-ide.sdt.debug ........................... SUCCESS [40.383s]
+[INFO] org.scala-ide.sdt.debug.tests ..................... SUCCESS [2:39.458s]
+[INFO] org.scala-ide.sdt.debug.expression ................ SUCCESS [54.038s]
+[INFO] org.scala-ide.sdt.debug.expression.tests .......... FAILURE [19:08.513s]
+[INFO] org.scala-ide.sdt.weaving.feature ................. SKIPPED
+[INFO] org.scala-ide.sdt.feature ......................... SKIPPED
+[INFO] org.scala-ide.sdt.dev.feature ..................... SKIPPED
+[INFO] org.scala-ide.sdt.source.feature .................. SKIPPED
+[INFO] org.scala-ide.sdt.update-site ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 36:10.720s
+[INFO] Finished at: Fri Apr 08 07:40:42 CEST 2016
+[INFO] Final Memory: 153M/619M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.eclipse.tycho:tycho-surefire-plugin:0.21.0:test (default-test) on project org.scala-ide.sdt.debug.expression.tests: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.scala-ide.sdt.debug.expression.tests
+Build step 'Execute shell' marked build as failure
+Recording test results
+Finished: FAILURE

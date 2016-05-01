@@ -1,0 +1,1633 @@
+$ ADDITIONAL_MVN_OPTS="-U -DskipTests" ./build-all.sh 
+Running with: mvn -Dtycho.localArtifacts=ignore -Pscala-2.11.x -Peclipse-mars -U -DskipTests clean verify
+Building parent project in /home/mlangc/Development/git/scala-ide
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.build ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/target
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ org.scala-ide.build ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/org.scala-ide.build-4.5.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.303 s
+[INFO] Finished at: 2016-05-01T09:32:25+02:00
+[INFO] Final Memory: 11M/303M
+[INFO] ------------------------------------------------------------------------
+Setting custom configuration files
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.build ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-sbt-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-sbt-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala210-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala210-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala211-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala211-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala212-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala212-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ org.scala-ide.build ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/org.scala-ide.build-4.5.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default-cli) @ org.scala-ide.build ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/META-INF
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/META-INF
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/META-INF
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site
+[INFO] Executed tasks
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.555 s
+[INFO] Finished at: 2016-05-01T09:32:26+02:00
+[INFO] Final Memory: 9M/240M
+[INFO] ------------------------------------------------------------------------
+Building the toolchain
+[INFO] Scanning for projects...
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+^Cmlangc@vega ~/Development/git/scala-ide [1002686-scala-type-completions-should-be-sorted-differently|⚑ 6]
+$ ADDITIONAL_MVN_OPTS="-U -DskipTests" ./build-all.sh 
+Running with: mvn -Dtycho.localArtifacts=ignore -Pscala-2.11.x -Peclipse-mars -U -DskipTests clean verify
+Building parent project in /home/mlangc/Development/git/scala-ide
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.build ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/target
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ org.scala-ide.build ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/org.scala-ide.build-4.5.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.302 s
+[INFO] Finished at: 2016-05-01T09:32:36+02:00
+[INFO] Final Memory: 10M/240M
+[INFO] ------------------------------------------------------------------------
+Setting custom configuration files
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.build ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-sbt-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-sbt-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala210-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala210-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala211-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala211-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala212-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-scala212-source-feature) @ org.scala-ide.build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ org.scala-ide.build ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/org.scala-ide.build-4.5.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default-cli) @ org.scala-ide.build ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/META-INF
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/META-INF
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/META-INF
+     [copy] Copying 1 file to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site
+[INFO] Executed tasks
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.530 s
+[INFO] Finished at: 2016-05-01T09:32:38+02:00
+[INFO] Final Memory: 10M/303M
+[INFO] ------------------------------------------------------------------------
+Building the toolchain
+[INFO] Scanning for projects...
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.scala210.jars:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.scala210.jars:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.scala210.jars:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] org.scala-ide.build-toolchain
+[INFO] org.scala-ide.sbt.full.library
+[INFO] org.scala-ide.sbt.full.library.source
+[INFO] org.scala-ide.sbt.compiler.interface
+[INFO] org.scala-ide.sbt.compiler.interface.source
+[INFO] org.scala-ide.scala210.jars
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.build-toolchain 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.build-toolchain ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.build-toolchain ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.build-toolchain && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.build-toolchain
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462087960681
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.build-toolchain && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.build-toolchain
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ org.scala-ide.build-toolchain ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.build-toolchain/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.build-toolchain/4.5.0-SNAPSHOT/org.scala-ide.build-toolchain-4.5.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.full.library 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/maven-metadata.xml
+log4j:WARN No appenders could be found for logger (org.apache.maven.wagon.providers.http.httpclient.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/maven-metadata.xml (715 B at 2.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml (862 B at 13.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml (2 KB at 21.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/maven-metadata.xml
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/maven-metadata.xml (623 B at 8.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/maven-metadata.xml
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/maven-metadata.xml (709 B at 11.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/sbt/sbt-interface/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml
+Downloading: https://proxy-ch.typesafe.com:8082/artifactory/ide-2.11/com/typesafe/sbt/sbt-interface/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml
+Downloaded: https://proxy-ch.typesafe.com:8082/artifactory/ide-2.11/com/typesafe/sbt/sbt-interface/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml (339 B at 0.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/sbt/incremental-compiler/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml
+Downloading: https://proxy-ch.typesafe.com:8082/artifactory/ide-2.11/com/typesafe/sbt/incremental-compiler/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml
+Downloaded: https://proxy-ch.typesafe.com:8082/artifactory/ide-2.11/com/typesafe/sbt/incremental-compiler/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml (346 B at 4.3 KB/sec)
+[INFO]      
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.full.library ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library/target
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sbt.full.library ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462087962534
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.scala-ide.sbt.full.library ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ org.scala-ide.sbt.full.library ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.scala-ide.sbt.full.library ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ org.scala-ide.sbt.full.library ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ org.scala-ide.sbt.full.library ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ org.scala-ide.sbt.full.library ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.scala-ide.sbt.full.library ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library/target/org.scala-ide.sbt.full.library-4.5.0-SNAPSHOT.jar to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.full.library/4.5.0-SNAPSHOT/org.scala-ide.sbt.full.library-4.5.0-SNAPSHOT.jar
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.full.library/4.5.0-SNAPSHOT/org.scala-ide.sbt.full.library-4.5.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ org.scala-ide.sbt.full.library ---
+[INFO] Installing org/scala-ide/org.scala-ide.sbt.full.library/4.5.0-SNAPSHOT/org.scala-ide.sbt.full.library-4.5.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.full.library.source 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source/target
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462087964153
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ org.scala-ide.sbt.full.library.source ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ org.scala-ide.sbt.full.library.source ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ org.scala-ide.sbt.full.library.source ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source/target/org.scala-ide.sbt.full.library.source-4.5.0-SNAPSHOT.jar to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.full.library.source/4.5.0-SNAPSHOT/org.scala-ide.sbt.full.library.source-4.5.0-SNAPSHOT.jar
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.full.library.source/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.full.library.source/4.5.0-SNAPSHOT/org.scala-ide.sbt.full.library.source-4.5.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ org.scala-ide.sbt.full.library.source ---
+[INFO] Installing org/scala-ide/org.scala-ide.sbt.full.library.source/4.5.0-SNAPSHOT/org.scala-ide.sbt.full.library.source-4.5.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.compiler.interface 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/sbt/compiler-interface-precompiled/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml
+Downloading: https://proxy-ch.typesafe.com:8082/artifactory/ide-2.11/com/typesafe/sbt/compiler-interface-precompiled/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml
+Downloaded: https://proxy-ch.typesafe.com:8082/artifactory/ide-2.11/com/typesafe/sbt/compiler-interface-precompiled/0.13.8-on-2.11.8-for-IDE-SNAPSHOT/maven-metadata.xml (356 B at 3.8 KB/sec)
+[INFO]      
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface/target
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462087964951
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface/target/org.scala-ide.sbt.compiler.interface-4.5.0-SNAPSHOT.jar to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.compiler.interface/4.5.0-SNAPSHOT/org.scala-ide.sbt.compiler.interface-4.5.0-SNAPSHOT.jar
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.compiler.interface/4.5.0-SNAPSHOT/org.scala-ide.sbt.compiler.interface-4.5.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ org.scala-ide.sbt.compiler.interface ---
+[INFO] Installing org/scala-ide/org.scala-ide.sbt.compiler.interface/4.5.0-SNAPSHOT/org.scala-ide.sbt.compiler.interface-4.5.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.compiler.interface.source 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source/target
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462087965346
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source/target/org.scala-ide.sbt.compiler.interface.source-4.5.0-SNAPSHOT.jar to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.compiler.interface.source/4.5.0-SNAPSHOT/org.scala-ide.sbt.compiler.interface.source-4.5.0-SNAPSHOT.jar
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.compiler.interface.source/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.sbt.compiler.interface.source/4.5.0-SNAPSHOT/org.scala-ide.sbt.compiler.interface.source-4.5.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ org.scala-ide.sbt.compiler.interface.source ---
+[INFO] Installing org/scala-ide/org.scala-ide.sbt.compiler.interface.source/4.5.0-SNAPSHOT/org.scala-ide.sbt.compiler.interface.source-4.5.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.scala210.jars 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.scala210.jars ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.scala210.jars ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.scala210.jars ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.scala210.jars ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.scala210.jars ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462087965695
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (copy.modules) @ org.scala-ide.scala210.jars ---
+[INFO] Configured Artifact: org.scala-lang:scala-library:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-reflect:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-compiler:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-swing:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-library:sources:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-reflect:sources:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-compiler:sources:?:jar
+[INFO] Configured Artifact: org.scala-lang:scala-swing:sources:?:jar
+[INFO] Copying scala-library-2.10.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-library.jar
+[INFO] Copying scala-reflect-2.10.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-reflect.jar
+[INFO] Copying scala-compiler-2.10.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-compiler.jar
+[INFO] Copying scala-swing-2.10.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-swing.jar
+[INFO] Copying scala-library-2.10.5-sources.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-library-src.jar
+[INFO] Copying scala-reflect-2.10.5-sources.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-reflect-src.jar
+[INFO] Copying scala-compiler-2.10.5-sources.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-compiler-src.jar
+[INFO] Copying scala-swing-2.10.5-sources.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/jars/scala-swing-src.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.scala210.jars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.scala210.jars ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.scala210.jars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/src/test/resources
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.scala210.jars ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.scala210.jars ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/org.scala-ide.scala210.jars-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.scala210.jars ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ org.scala-ide.scala210.jars ---
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/org.scala-ide.scala210.jars-4.5.0-SNAPSHOT.jar to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.scala210.jars/4.5.0-SNAPSHOT/org.scala-ide.scala210.jars-4.5.0-SNAPSHOT.jar
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/pom.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.scala210.jars/4.5.0-SNAPSHOT/org.scala-ide.scala210.jars-4.5.0-SNAPSHOT.pom
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/p2content.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.scala210.jars/4.5.0-SNAPSHOT/org.scala-ide.scala210.jars-4.5.0-SNAPSHOT-p2metadata.xml
+[INFO] Installing /home/mlangc/Development/git/scala-ide/org.scala-ide.scala210.jars/target/p2artifacts.xml to /home/mlangc/.m2/repository/org/scala-ide/org.scala-ide.scala210.jars/4.5.0-SNAPSHOT/org.scala-ide.scala210.jars-4.5.0-SNAPSHOT-p2artifacts.xml
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:update-local-index (default-update-local-index) @ org.scala-ide.scala210.jars ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.scala-ide.build-toolchain ...................... SUCCESS [  0.180 s]
+[INFO] org.scala-ide.sbt.full.library ..................... SUCCESS [  3.404 s]
+[INFO] org.scala-ide.sbt.full.library.source .............. SUCCESS [  0.383 s]
+[INFO] org.scala-ide.sbt.compiler.interface ............... SUCCESS [  0.818 s]
+[INFO] org.scala-ide.sbt.compiler.interface.source ........ SUCCESS [  0.247 s]
+[INFO] org.scala-ide.scala210.jars ........................ SUCCESS [  1.414 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.381 s
+[INFO] Finished at: 2016-05-01T09:32:47+02:00
+[INFO] Final Memory: 43M/647M
+[INFO] ------------------------------------------------------------------------
+Generating the local p2 repositories
+[INFO] Scanning for projects...
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sbt.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.feature/pom.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.sbt.full.library/4.5.0-SNAPSHOT/maven-metadata.xml
+log4j:WARN No appenders could be found for logger (org.apache.maven.wagon.providers.http.httpclient.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.build-toolchain/4.5.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.scala-ide:org.scala-ide.build:4.5.0-SNAPSHOT/maven-metadata.xml from/to typesafe-ide-${scala.short.version} (${repo.typesafe}): Cannot access ${repo.typesafe} with type default using the available connector factories: BasicRepositoryConnectorFactory
+Downloading: https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile/org/scala-ide/org.scala-ide.build-toolchain/4.5.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.scala-ide:org.scala-ide.build-toolchain:4.5.0-SNAPSHOT/maven-metadata.xml from/to typesafe-ide-Select a Scala profile (https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile): Illegal character in path at index 57: https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile/org/scala-ide/org.scala-ide.build-toolchain/4.5.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Failure to transfer org.scala-ide:org.scala-ide.build:4.5.0-SNAPSHOT/maven-metadata.xml from ${repo.typesafe} was cached in the local repository, resolution will not be reattempted until the update interval of typesafe-ide-${scala.short.version} has elapsed or updates are forced. Original error: Could not transfer metadata org.scala-ide:org.scala-ide.build:4.5.0-SNAPSHOT/maven-metadata.xml from/to typesafe-ide-${scala.short.version} (${repo.typesafe}): Cannot access ${repo.typesafe} with type default using the available connector factories: BasicRepositoryConnectorFactory
+Downloading: https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.scala-ide:org.scala-ide.build:4.5.0-SNAPSHOT/maven-metadata.xml from/to typesafe-ide-Select a Scala profile (https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile): Illegal character in path at index 57: https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Failure to transfer org.scala-ide:org.scala-ide.build:4.5.0-SNAPSHOT/maven-metadata.xml from https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile was cached in the local repository, resolution will not be reattempted until the update interval of typesafe-ide-Select a Scala profile has elapsed or updates are forced. Original error: Could not transfer metadata org.scala-ide:org.scala-ide.build:4.5.0-SNAPSHOT/maven-metadata.xml from/to typesafe-ide-Select a Scala profile (https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile): Illegal character in path at index 57: https://proxy-ch.typesafe.com:8082/artifactory/ide-Select a Scala profile/org/scala-ide/org.scala-ide.build/4.5.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.sbt.full.library.source/4.5.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.sbt.compiler.interface/4.5.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.sbt.compiler.interface.source/4.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sbt.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sbt.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sbt.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.source.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sbt.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.source.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sbt.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.source.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sbt.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sbt.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sbt.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.scala211.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.feature/pom.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-ide/org.scala-ide.scala210.jars/4.5.0-SNAPSHOT/maven-metadata.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.scala211.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.scala211.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.scala211.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.source.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.scala211.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.source.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.scala211.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.source.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.scala211.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.scala211.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.scala211.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.refactoring.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.feature/pom.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-refactoring/org.scala-refactoring.library_2.11.8/0.10.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/scala-refactoring/org.scala-refactoring.library_2.11.8/0.10.0-SNAPSHOT/maven-metadata.xml
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/org/scala-refactoring/org.scala-refactoring.library_2.11.8/0.10.0-SNAPSHOT/maven-metadata.xml (304 B at 0.6 KB/sec)
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/org/scala-refactoring/org.scala-refactoring.library_2.11.8/0.10.0-SNAPSHOT/maven-metadata.xml (304 B at 0.5 KB/sec)
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.refactoring.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.refactoring.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.refactoring.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.refactoring.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.refactoring.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] org.scala-ide.p2-toolchain
+[INFO] org.scala-ide.sbt.build
+[INFO] org.scala-ide.sbt.feature
+[INFO] org.scala-ide.sbt.source.feature
+[INFO] org.scala-ide.sbt.update-site
+[INFO] org.scala-ide.scala211.build
+[INFO] org.scala-ide.scala211.source.feature
+[INFO] org.scala-ide.scala211.feature
+[INFO] org.scala-ide.scala211.update-site
+[INFO] org.scala-ide.refactoring
+[INFO] org.scala-ide.refactoring.feature
+[INFO] org.scala-ide.refactoring.update-site
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.p2-toolchain 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.p2-toolchain ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.build ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.sbt.feature ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sbt.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sbt.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sbt.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.sbt.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.feature/target/org.scala-ide.sbt.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sbt.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.sbt.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.source.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.source.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.source.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.sbt.source.feature ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sbt.source.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sbt.source.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sbt.source.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.sbt.source.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.source.feature/target/org.scala-ide.sbt.source.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sbt.source.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.sbt.source.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sbt.update-site 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sbt.update-site ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sbt.update-site ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site (default-update-site) @ org.scala-ide.sbt.update-site ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:update-site-p2-metadata (default-update-site-p2-metadata) @ org.scala-ide.sbt.update-site ---
+[INFO] Command line:
+	[/opt/oracle-jdk-bin-1.8.0.92/jre/bin/java, -jar, /home/mlangc/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.21.0/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar, -configuration, /tmp/tycho-p2-runtime4054114774395660143.tmp/configuration, -nosplash, -application, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, -source, /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/target/site, -metadataRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/target/site/, -metadataRepositoryName, org.scala-ide.sbt.update-site, -artifactRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/target/site/, -artifactRepositoryName, org.scala-ide.sbt.update-site Artifacts, -noDefaultIUs, -compress]
+Generating metadata for ..
+Generation completed with success [0 seconds].
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site-packaging (default-update-site-packaging) @ org.scala-ide.sbt.update-site ---
+[INFO] Building zip: /home/mlangc/Development/git/scala-ide/org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/target/site.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.scala211.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.scala211.build ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.scala211.source.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.scala211.source.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.source.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.scala211.source.feature ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.scala211.source.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.scala211.source.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.scala211.source.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.scala211.source.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.source.feature/target/org.scala-ide.scala211.source.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.scala211.source.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.scala211.source.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.scala211.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.scala211.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.scala211.feature ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.scala211.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.scala211.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.scala211.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.scala211.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.feature/target/org.scala-ide.scala211.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.scala211.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.scala211.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.scala211.update-site 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.scala211.update-site ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.scala211.update-site ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site (default-update-site) @ org.scala-ide.scala211.update-site ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:update-site-p2-metadata (default-update-site-p2-metadata) @ org.scala-ide.scala211.update-site ---
+[INFO] Command line:
+	[/opt/oracle-jdk-bin-1.8.0.92/jre/bin/java, -jar, /home/mlangc/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.21.0/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar, -configuration, /tmp/tycho-p2-runtime5967380356012837659.tmp/configuration, -nosplash, -application, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, -source, /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/target/site, -metadataRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/target/site/, -metadataRepositoryName, org.scala-ide.scala211.update-site, -artifactRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/target/site/, -artifactRepositoryName, org.scala-ide.scala211.update-site Artifacts, -noDefaultIUs, -compress]
+Generating metadata for ..
+Generation completed with success [0 seconds].
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site-packaging (default-update-site-packaging) @ org.scala-ide.scala211.update-site ---
+[INFO] Building zip: /home/mlangc/Development/git/scala-ide/org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/target/site.zip
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.refactoring 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.refactoring ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.refactoring.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.refactoring.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.refactoring.feature ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.refactoring.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.refactoring.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.refactoring.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.refactoring.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.feature/target/org.scala-ide.refactoring.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.refactoring.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.refactoring.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.refactoring.update-site 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.refactoring.update-site ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.refactoring.update-site ---
+[INFO] The project's OSGi version is 4.5.0.201605010732
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site (default-update-site) @ org.scala-ide.refactoring.update-site ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:update-site-p2-metadata (default-update-site-p2-metadata) @ org.scala-ide.refactoring.update-site ---
+[INFO] Command line:
+	[/opt/oracle-jdk-bin-1.8.0.92/jre/bin/java, -jar, /home/mlangc/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.21.0/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar, -configuration, /tmp/tycho-p2-runtime5801258266970858108.tmp/configuration, -nosplash, -application, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, -source, /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/target/site, -metadataRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/target/site/, -metadataRepositoryName, org.scala-ide.refactoring.update-site, -artifactRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/target/site/, -artifactRepositoryName, org.scala-ide.refactoring.update-site Artifacts, -noDefaultIUs, -compress]
+Generating metadata for ..
+Generation completed with success [0 seconds].
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site-packaging (default-update-site-packaging) @ org.scala-ide.refactoring.update-site ---
+[INFO] Building zip: /home/mlangc/Development/git/scala-ide/org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/target/site.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.scala-ide.p2-toolchain ......................... SUCCESS [  0.028 s]
+[INFO] org.scala-ide.sbt.build ............................ SUCCESS [  0.001 s]
+[INFO] org.scala-ide.sbt.feature .......................... SUCCESS [  0.223 s]
+[INFO] org.scala-ide.sbt.source.feature ................... SUCCESS [  0.017 s]
+[INFO] org.scala-ide.sbt.update-site ...................... SUCCESS [  1.392 s]
+[INFO] org.scala-ide.scala211.build ....................... SUCCESS [  0.001 s]
+[INFO] org.scala-ide.scala211.source.feature .............. SUCCESS [  0.034 s]
+[INFO] org.scala-ide.scala211.feature ..................... SUCCESS [  0.059 s]
+[INFO] org.scala-ide.scala211.update-site ................. SUCCESS [  1.334 s]
+[INFO] org.scala-ide.refactoring .......................... SUCCESS [  0.001 s]
+[INFO] org.scala-ide.refactoring.feature .................. SUCCESS [  0.024 s]
+[INFO] org.scala-ide.refactoring.update-site .............. SUCCESS [  1.486 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.853 s
+[INFO] Finished at: 2016-05-01T09:32:58+02:00
+[INFO] Final Memory: 29M/459M
+[INFO] ------------------------------------------------------------------------
+Not running UpdateScalaIDEManifests.
+Building plugins
+[INFO] Scanning for projects...
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.aspects:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/pom.xml
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/ (0B at 0B/s)
+[INFO] Adding repository http://download.eclipse.org/releases/mars
+[INFO] Fetching p2.index from http://download.eclipse.org/technology/epp/packages/mars/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/201506241002/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/201510021000/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/mars/201602261000/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/tools/ajdt/45/dev/update/ (0B at 0B/s)
+[INFO] Adding repository http://download.eclipse.org/tools/ajdt/45/dev/update
+[INFO] Adding repository file:../org.scala-ide.refactoring/org.scala-ide.refactoring.update-site/target/site
+[INFO] Adding repository http://downloads.typesafe.com/scalaide/scalariform-211x
+[INFO] Adding repository http://download.scala-ide.org/plugins/equinox-weaving-launcher/releases/site
+[INFO] Adding repository file:../org.scala-ide.sbt.build/org.scala-ide.sbt.update-site/target/site
+[INFO] Adding repository file:../org.scala-ide.scala211.build/org.scala-ide.scala211.update-site/target/site
+[INFO] Adding repository http://download.eclipse.org/technology/nebula/snapshot
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.aspects:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.aspects:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.core:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.core:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.core:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.core.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.core.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.core.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.spy:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.spy:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.spy:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.debug:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.debug:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.debug:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.debug.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.debug.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.debug.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.debug.expression:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.debug.expression:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.debug.expression:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.debug.expression.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.debug.expression.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.debug.expression.tests:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.weaving.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.weaving.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.weaving.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.dev.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.dev.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.dev.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.source.feature:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.scala-ide:org.scala-ide.sdt.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/pom.xml
+[INFO] Resolving dependencies of MavenProject: org.scala-ide:org.scala-ide.sdt.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/pom.xml
+[INFO] Resolving class path of MavenProject: org.scala-ide:org.scala-ide.sdt.update-site:4.5.0-SNAPSHOT @ /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] org.scala-ide.sdt.build
+[INFO] org.scala-ide.sdt.aspects
+[INFO] org.scala-ide.sdt.core
+[INFO] org.scala-ide.sdt.core.tests
+[INFO] org.scala-ide.sdt.spy
+[INFO] org.scala-ide.sdt.debug
+[INFO] org.scala-ide.sdt.debug.tests
+[INFO] org.scala-ide.sdt.debug.expression
+[INFO] org.scala-ide.sdt.debug.expression.tests
+[INFO] org.scala-ide.sdt.weaving.feature
+[INFO] org.scala-ide.sdt.feature
+[INFO] org.scala-ide.sdt.dev.feature
+[INFO] org.scala-ide.sdt.source.feature
+[INFO] org.scala-ide.sdt.update-site
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.build 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.build ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.build ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.build && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.build
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088006013
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.build && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.build
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.build ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.build ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.aspects 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.aspects ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.aspects ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.aspects ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.aspects ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.aspects ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088006246
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.8:compile (compile) @ org.scala-ide.sdt.aspects ---
+[INFO] Showing AJC message detail for messages of types: [error, warning, fail]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.aspects ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.aspects ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.aspects ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/src:-1: info: compiling
+[INFO] Compiling 31 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/target/classes at 1462088008952
+[INFO] prepare-compile in 0 s
+[INFO] compile in 0 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.aspects ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.aspects ---
+[WARNING] bundle localization file /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/plugin.properties not found
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/target/org.scala-ide.sdt.aspects-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.aspects ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.aspects ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.aspects/target/org.scala-ide.sdt.aspects-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.aspects ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.core 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.core ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.core ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.core ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088010167
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (copy) @ org.scala-ide.sdt.core ---
+[INFO] Configured Artifact: log4j:log4j:?:jar
+[INFO] Configured Artifact: com.miglayout:miglayout:?:jar
+[INFO] Configured Artifact: com.cedarsoftware:json-io:?:jar
+[INFO] Configured Artifact: com.cedarsoftware:json-io:sources:?:jar
+[INFO] Copying log4j-1.2.17.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/lib/log4j-1.2.17.jar
+[INFO] Copying miglayout-3.7.4.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/lib/miglayout-3.7.4.jar
+[INFO] Copying json-io-4.1.6.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/lib/json-io-4.1.6.jar
+[INFO] Copying json-io-4.1.6-sources.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/lib/json-io-4.1.6-sources.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ org.scala-ide.sdt.core ---
+[INFO] Source directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/src-mars added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.core ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/src:-1: info: compiling
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/src-mars:-1: info: compiling
+[INFO] Compiling 499 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/classes at 1462088010433
+[INFO] prepare-compile in 0 s
+[INFO] compile in 27 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.core ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/org.scala-ide.sdt.core-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.core ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.core ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core/target/org.scala-ide.sdt.core-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.core ---
+[INFO] 
+[INFO] --- scalastyle-maven-plugin:0.3.2:check (default) @ org.scala-ide.sdt.core ---
+Processed 496 file(s)
+Found 0 errors
+Found 0 warnings
+Finished in 1288 ms
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.core.tests 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.core.tests ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/target
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests (includes = [test-workspace/scala-compiler/src/**/*, test-workspace/scala-compiler/src], excludes = [])
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.core.tests ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.core.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.core.tests ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.core.tests ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088041453
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (copy) @ org.scala-ide.sdt.core.tests ---
+[INFO] Configured Artifact: org.mockito:mockito-all:?:jar
+[INFO] Configured Artifact: log4j:log4j:?:jar
+[INFO] Copying mockito-all-1.9.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/target/lib/mockito-all-1.9.5.jar
+[INFO] Copying log4j-1.2.17.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/target/lib/log4j-1.2.17.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.core.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/src/main/resources
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.core.tests ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/src:-1: info: compiling
+[INFO] Compiling 191 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/target/classes at 1462088041485
+[INFO] prepare-compile in 0 s
+[INFO] compile in 13 s
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.core.tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.core.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.core.tests ---
+[WARNING] bundle localization file /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/plugin.properties not found
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/target/org.scala-ide.sdt.core.tests-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.core.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.core.tests ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.core.tests/target/org.scala-ide.sdt.core.tests-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.core.tests ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:0.21.0:test (default-test) @ org.scala-ide.sdt.core.tests ---
+[INFO] Skipping tests
+[INFO] 
+[INFO] --- scalastyle-maven-plugin:0.3.2:check (default) @ org.scala-ide.sdt.core.tests ---
+Processed 380 file(s)
+Found 0 errors
+Found 0 warnings
+Finished in 534 ms
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.spy 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.spy ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.spy ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.spy ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.spy ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.spy ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088055922
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.spy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.spy ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.spy ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/src:-1: info: compiling
+[INFO] Compiling 1 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/target/classes at 1462088055938
+[INFO] prepare-compile in 0 s
+[INFO] compile in 2 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.spy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.spy ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/target/org.scala-ide.sdt.spy-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.spy ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.spy ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.spy/target/org.scala-ide.sdt.spy-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.spy ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.debug 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.debug ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.debug ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.debug ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.debug ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.debug ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088058409
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (copy) @ org.scala-ide.sdt.debug ---
+[INFO] Configured Artifact: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:?:jar
+[INFO] Copying concurrentlinkedhashmap-lru-1.4.2.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/target/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (default) @ org.scala-ide.sdt.debug ---
+[INFO] Source directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/src-mars added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.debug ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.debug ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.debug ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/src:-1: info: compiling
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/src-mars:-1: info: compiling
+[INFO] Compiling 60 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/target/classes at 1462088058437
+[INFO] prepare-compile in 0 s
+[INFO] compile in 8 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.debug ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.debug ---
+[WARNING] bundle localization file /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/plugin.properties not found
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/target/org.scala-ide.sdt.debug-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.debug ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.debug ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug/target/org.scala-ide.sdt.debug-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.debug ---
+[INFO] 
+[INFO] --- scalastyle-maven-plugin:0.3.2:check (default) @ org.scala-ide.sdt.debug ---
+Processed 58 file(s)
+Found 0 errors
+Found 0 warnings
+Finished in 93 ms
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.debug.tests 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.debug.tests ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.debug.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.debug.tests ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088067014
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (copy) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Configured Artifact: org.mockito:mockito-all:?:jar
+[INFO] Copying mockito-all-1.9.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/target/lib/mockito-all-1.9.5.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/src/main/resources
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.debug.tests ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/src:-1: info: compiling
+[INFO] Compiling 34 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/target/classes at 1462088067039
+[INFO] prepare-compile in 0 s
+[INFO] compile in 6 s
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Compiling 7 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.debug.tests ---
+[WARNING] bundle localization file /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/plugin.properties not found
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/target/org.scala-ide.sdt.debug.tests-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.debug.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.tests/target/org.scala-ide.sdt.debug.tests-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.debug.tests ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:0.21.0:test (default-test) @ org.scala-ide.sdt.debug.tests ---
+[INFO] Skipping tests
+[INFO] 
+[INFO] --- scalastyle-maven-plugin:0.3.2:check (default) @ org.scala-ide.sdt.debug.tests ---
+Processed 56 file(s)
+Found 0 errors
+Found 0 warnings
+Finished in 78 ms
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.debug.expression 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.debug.expression ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.debug.expression ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.debug.expression ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088074227
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/src/main/resources
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.debug.expression ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/src:-1: info: compiling
+[INFO] Compiling 103 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/target/classes at 1462088074250
+[INFO] prepare-compile in 0 s
+[INFO] compile in 11 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/target/org.scala-ide.sdt.debug.expression-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.debug.expression ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.debug.expression ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression/target/org.scala-ide.sdt.debug.expression-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.debug.expression ---
+[INFO] 
+[INFO] --- scalastyle-maven-plugin:0.3.2:check (default) @ org.scala-ide.sdt.debug.expression ---
+Processed 103 file(s)
+Found 0 errors
+Found 0 warnings
+Finished in 122 ms
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.debug.expression.tests 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088085889
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy (copy) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Configured Artifact: org.mockito:mockito-all:?:jar
+[INFO] Copying mockito-all-1.9.5.jar to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/lib/mockito-all-1.9.5.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/src/main/resources
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/src:-1: info: compiling
+[INFO] Compiling 83 source files to /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/classes at 1462088085912
+[INFO] prepare-compile in 0 s
+[INFO] compile in 5 s
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.21.0:compile (default-compile) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/src/test/resources
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.debug.expression.tests ---
+[WARNING] bundle localization file /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/plugin.properties not found
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/org.scala-ide.sdt.debug.expression.tests-4.5.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-plugin (default-package-plugin) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/org.scala-ide.sdt.debug.expression.tests-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] 
+[INFO] --- tycho-surefire-plugin:0.21.0:test (default-test) @ org.scala-ide.sdt.debug.expression.tests ---
+[INFO] Skipping tests
+[INFO] 
+[INFO] --- scalastyle-maven-plugin:0.3.2:check (default) @ org.scala-ide.sdt.debug.expression.tests ---
+Processed 117 file(s)
+Found 0 errors
+Found 0 warnings
+Finished in 92 ms
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.weaving.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088091992
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.weaving.feature/target/org.scala-ide.sdt.weaving.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.weaving.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.sdt.weaving.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.sdt.feature ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.feature ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.feature ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088092039
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.feature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.sdt.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.feature/target/org.scala-ide.sdt.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.sdt.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.dev.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.dev.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.sdt.dev.feature ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.dev.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.dev.feature ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.dev.feature ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088092095
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.dev.feature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.dev.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.dev.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.sdt.dev.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.dev.feature/target/org.scala-ide.sdt.dev.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.dev.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.sdt.dev.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.source.feature 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.source.feature ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ org.scala-ide.sdt.source.feature ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-id (default-validate-id) @ org.scala-ide.sdt.source.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:validate-version (default-validate-version) @ org.scala-ide.sdt.source.feature ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.source.feature ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088092144
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.source.feature ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.source.feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:0.21.0:target-platform (default-target-platform) @ org.scala-ide.sdt.source.feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:package-feature (default-package-feature) @ org.scala-ide.sdt.source.feature ---
+[INFO] Building jar: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.source.feature/target/org.scala-ide.sdt.source.feature-4.5.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:p2-metadata-default (default-p2-metadata-default) @ org.scala-ide.sdt.source.feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:feature-p2-metadata (default-feature-p2-metadata) @ org.scala-ide.sdt.source.feature ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.scala-ide.sdt.update-site 4.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.scala-ide.sdt.update-site ---
+[INFO] Deleting /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/target
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:build-qualifier (default-build-qualifier) @ org.scala-ide.sdt.update-site ---
+[INFO] The project's OSGi version is 4.5.0.local-2_11-201605010733-${buildNumber}
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ org.scala-ide.sdt.update-site ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site
+[INFO] Storing buildNumber: 8312ae0 at timestamp: 1462088092181
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: /bin/sh -c cd /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site && git rev-parse --verify --short=7 HEAD
+[INFO] Working directory: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ org.scala-ide.sdt.update-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- tycho-source-plugin:0.21.0:plugin-source (attach-source) @ org.scala-ide.sdt.update-site ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site (default-update-site) @ org.scala-ide.sdt.update-site ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:0.21.0:update-site-p2-metadata (default-update-site-p2-metadata) @ org.scala-ide.sdt.update-site ---
+[INFO] Command line:
+	[/opt/oracle-jdk-bin-1.8.0.92/jre/bin/java, -jar, /home/mlangc/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.21.0/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar, -configuration, /tmp/tycho-p2-runtime776917961283475113.tmp/configuration, -nosplash, -application, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, -source, /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/target/site, -metadataRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/target/site/, -metadataRepositoryName, org.scala-ide.sdt.update-site, -artifactRepository, file:/home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/target/site/, -artifactRepositoryName, org.scala-ide.sdt.update-site Artifacts, -noDefaultIUs, -compress]
+Generating metadata for ..
+Generation completed with success [0 seconds].
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.21.0:update-site-packaging (default-update-site-packaging) @ org.scala-ide.sdt.update-site ---
+[INFO] Building zip: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/target/site.zip
+[INFO] Building zip: /home/mlangc/Development/git/scala-ide/org.scala-ide.sdt.update-site/target/site_assembly.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.scala-ide.sdt.build ............................ SUCCESS [  0.269 s]
+[INFO] org.scala-ide.sdt.aspects .......................... SUCCESS [  3.917 s]
+[INFO] org.scala-ide.sdt.core ............................. SUCCESS [ 31.325 s]
+[INFO] org.scala-ide.sdt.core.tests ....................... SUCCESS [ 14.498 s]
+[INFO] org.scala-ide.sdt.spy .............................. SUCCESS [  2.472 s]
+[INFO] org.scala-ide.sdt.debug ............................ SUCCESS [  8.618 s]
+[INFO] org.scala-ide.sdt.debug.tests ...................... SUCCESS [  7.216 s]
+[INFO] org.scala-ide.sdt.debug.expression ................. SUCCESS [ 11.660 s]
+[INFO] org.scala-ide.sdt.debug.expression.tests ........... SUCCESS [  6.111 s]
+[INFO] org.scala-ide.sdt.weaving.feature .................. SUCCESS [  0.046 s]
+[INFO] org.scala-ide.sdt.feature .......................... SUCCESS [  0.054 s]
+[INFO] org.scala-ide.sdt.dev.feature ...................... SUCCESS [  0.056 s]
+[INFO] org.scala-ide.sdt.source.feature ................... SUCCESS [  0.030 s]
+[INFO] org.scala-ide.sdt.update-site ...................... SUCCESS [  3.568 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:55 min
+[INFO] Finished at: 2016-05-01T09:34:55+02:00
+[INFO] Final Memory: 185M/1610M
+[INFO] ------------------------------------------------------------------------

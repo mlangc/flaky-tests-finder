@@ -1,0 +1,700 @@
+org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform$1.apply(ExpressionEvaluator.scala:206)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform$1.apply(ExpressionEvaluator.scala:202)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator.org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform(ExpressionEvaluator.scala:202)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$compileExpression$1.apply(ExpressionEvaluator.scala:128)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$compileExpression$1.apply(ExpressionEvaluator.scala:123)
+	at scala.util.Try$.apply(Try.scala:192)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator.compileExpression(ExpressionEvaluator.scala:123)
+	at org.scalaide.debug.internal.expression.JdiExpressionEvaluator.apply(JdiExpressionEvaluator.scala:61)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1.org$scalaide$debug$internal$expression$ExpressionManager$class$$anonfun$$computeInEvaluator$1(ExpressionManager.scala:99)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1$$anonfun$apply$2.apply(ExpressionManager.scala:127)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1$$anonfun$apply$2.apply(ExpressionManager.scala:124)
+	at org.scalaide.debug.internal.expression.ExpressionManager$EvaluationStatus$.monitor(ExpressionManager.scala:77)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1.apply(ExpressionManager.scala:124)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1.apply(ExpressionManager.scala:91)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.expression.ExpressionManager$class.compute(ExpressionManager.scala:91)
+	at org.scalaide.debug.internal.expression.ExpressionManager$.compute(ExpressionManager.scala:50)
+	at org.scalaide.debug.internal.expression.DifferentStackFramesTest.testThreadAccess(DifferentStackFramesTest.scala:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:87)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+2016-04-28 14:05:15,858 ERROR [main] - ExpressionManager$ - Absent information exception
+com.sun.jdi.AbsentInformationException: No local variable information available
+	at org.eclipse.jdi.internal.MethodImpl.variables(MethodImpl.java:517)
+	at org.eclipse.jdi.internal.StackFrameImpl.visibleVariables(StackFrameImpl.java:295)
+	at org.eclipse.jdi.internal.StackFrameImpl.visibleVariableByName(StackFrameImpl.java:279)
+	at org.scalaide.debug.internal.expression.context.extensions.ExtendedContext$ScalaTrait$.unapply(ExtendedContext.scala:103)
+	at org.scalaide.debug.internal.expression.context.extensions.ExtendedContext.createInitialTransformationContext(ExtendedContext.scala:118)
+	at org.scalaide.debug.internal.expression.context.extensions.ExtendedContext.currentTransformation$lzycompute(ExtendedContext.scala:29)
+	at org.scalaide.debug.internal.expression.context.extensions.ExtendedContext.currentTransformation(ExtendedContext.scala:28)
+	at org.scalaide.debug.internal.expression.context.extensions.ExtendedContext.thisFields(ExtendedContext.scala:37)
+	at org.scalaide.debug.internal.expression.context.JdiVariableContext$class.syntheticVariables(JdiVariableContext.scala:34)
+	at org.scalaide.debug.internal.expression.context.JdiContext.syntheticVariables(JdiContext.scala:145)
+	at org.scalaide.debug.internal.expression.proxies.phases.MockUnboundValuesAndAddImportsFromThis$MockProxyBuilder$.generateProxies(MockUnboundValuesAndAddImportsFromThis.scala:88)
+	at org.scalaide.debug.internal.expression.proxies.phases.MockUnboundValuesAndAddImportsFromThis$MockProxyBuilder$.prependMockProxyCode(MockUnboundValuesAndAddImportsFromThis.scala:58)
+	at org.scalaide.debug.internal.expression.proxies.phases.MockUnboundValuesAndAddImportsFromThis.transform(MockUnboundValuesAndAddImportsFromThis.scala:157)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform$1$$anonfun$34.apply(ExpressionEvaluator.scala:207)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform$1$$anonfun$34.apply(ExpressionEvaluator.scala:207)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator.org$scalaide$debug$internal$expression$ExpressionEvaluator$$measure(ExpressionEvaluator.scala:154)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform$1.apply(ExpressionEvaluator.scala:206)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform$1.apply(ExpressionEvaluator.scala:202)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator.org$scalaide$debug$internal$expression$ExpressionEvaluator$$transform(ExpressionEvaluator.scala:202)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$compileExpression$1.apply(ExpressionEvaluator.scala:128)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator$$anonfun$compileExpression$1.apply(ExpressionEvaluator.scala:123)
+	at scala.util.Try$.apply(Try.scala:192)
+	at org.scalaide.debug.internal.expression.ExpressionEvaluator.compileExpression(ExpressionEvaluator.scala:123)
+	at org.scalaide.debug.internal.expression.JdiExpressionEvaluator.apply(JdiExpressionEvaluator.scala:61)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1.org$scalaide$debug$internal$expression$ExpressionManager$class$$anonfun$$computeInEvaluator$1(ExpressionManager.scala:99)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1$$anonfun$apply$2.apply(ExpressionManager.scala:127)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1$$anonfun$apply$2.apply(ExpressionManager.scala:124)
+	at org.scalaide.debug.internal.expression.ExpressionManager$EvaluationStatus$.monitor(ExpressionManager.scala:77)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1.apply(ExpressionManager.scala:124)
+	at org.scalaide.debug.internal.expression.ExpressionManager$$anonfun$compute$1.apply(ExpressionManager.scala:91)
+	at org.scalaide.util.Utils$jdiSynchronized$$anon$1.call(Utils.scala:60)
+	at scala.tools.eclipse.contribution.weaving.jdt.jdi.JdiInvocationSynchronizer.runSynchronized(JdiInvocationSynchronizer.java:23)
+	at org.scalaide.util.Utils$jdiSynchronized$.apply(Utils.scala:64)
+	at org.scalaide.debug.internal.expression.ExpressionManager$class.compute(ExpressionManager.scala:91)
+	at org.scalaide.debug.internal.expression.ExpressionManager$.compute(ExpressionManager.scala:50)
+	at org.scalaide.debug.internal.expression.DifferentStackFramesTest.testThreadAccess(DifferentStackFramesTest.scala:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:87)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+2016-04-28 14:05:15,859 ERROR [main] - ExpressionManager$ - Current thread is not suspended as a result of JDI event.
+Evaluating expressions in such state is not possible due to JDI limitation.
+org.scalaide.debug.internal.expression.NotAtBreakpointException$: Current thread is not suspended as a result of JDI event.
+Evaluating expressions in such state is not possible due to JDI limitation.
+2016-04-28 14:05:15,862  INFO [main] - JdiExpressionEvaluator - Compiling:
+	input
+2016-04-28 14:05:16,050  INFO [main] - DifferentStackFramesTest$ - Test DifferentStackFramesTest finished
+2016-04-28 14:05:16,050 DEBUG [ForkJoinPool-1-worker-15] - ScalaJdiEventDispatcherSubordinate - VMDisconnectEvent: 0
+2016-04-28 14:05:16,123  INFO [main] - ScalaProject - shutting down compilers for expr-eval-different-stack-frames
+2016-04-28 14:05:16,123 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project expr-eval-different-stack-frames
+2016-04-28 14:05:16,123  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: expr-eval-different-stack-frames
+2016-04-28 14:05:20,225 DEBUG [main] - SDTTestUtils$ - copying /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/test-workspace/expr-eval-code-completion to /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion
+2016-04-28 14:05:20,231  WARN [main] - ScalaProject - Project expr-eval-code-completion has platform default sourceLevel.
+2016-04-28 14:05:20,231  WARN [main] - ScalaProject - Project expr-eval-code-completion runs on platform default installation.
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -feature to false (false)
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -g to vars (vars)
+2016-04-28 14:05:20,360 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -optimise to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -target to jvm-1.6 (jvm-1.6)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -no-specialization to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -explaintypes to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -nowarn to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xcheckinit to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xelide-below to -2147483648 (-2147483648)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xlog-implicits to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xdisable-assertions to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xno-uescape to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfatal-warnings to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:20,361 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:20,364  WARN [main] - ScalaProject - Project expr-eval-code-completion has platform default sourceLevel.
+2016-04-28 14:05:20,364  WARN [main] - ScalaProject - Project expr-eval-code-completion runs on platform default installation.
+2016-04-28 14:05:20,367  INFO [main] - SimpleContentProposalProviderIntegrationTest$ - Test SimpleContentProposalProviderIntegrationTest started
+2016-04-28 14:05:20,388 DEBUG [main] - ScalaProject - Added output folder: F/expr-eval-code-completion/src: F/expr-eval-code-completion/bin
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -feature to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -g to vars (vars)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -optimise to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -target to jvm-1.6 (jvm-1.6)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -no-specialization to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -explaintypes to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -nowarn to false (false)
+2016-04-28 14:05:20,389 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xcheckinit to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xelide-below to -2147483648 (-2147483648)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xlog-implicits to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xdisable-assertions to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xno-uescape to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfatal-warnings to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:20,390 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:20,390  INFO [main] - ScalaProject - setting additional parameters: 
+2016-04-28 14:05:20,390  INFO [main] - ScalaProject - BM: SBT enhanced Build Manager for SpecificScalaVersion(2,11,8,Final) Scala library
+2016-04-28 14:05:20,391  INFO [main] - ScalaProject - Resetting compilers due to Project.clean
+2016-04-28 14:05:20,391  INFO [main] - ScalaProject - resetting compilers!  project: expr-eval-code-completion
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -feature to false (false)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -g to vars (vars)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -optimise to false (false)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -target to jvm-1.6 (jvm-1.6)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -no-specialization to false (false)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:20,494 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -explaintypes to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -nowarn to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xcheckinit to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xelide-below to -2147483648 (-2147483648)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xlog-implicits to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xdisable-assertions to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xno-uescape to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfatal-warnings to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:20,495 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:20,496  WARN [main] - ScalaProject - Project expr-eval-code-completion has platform default sourceLevel.
+2016-04-28 14:05:20,497  WARN [main] - ScalaProject - Project expr-eval-code-completion runs on platform default installation.
+2016-04-28 14:05:20,498 DEBUG [main] - ScalaProject - Added output folder: F/expr-eval-code-completion/src: F/expr-eval-code-completion/bin
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -feature to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -g to vars (vars)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -optimise to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -target to jvm-1.6 (jvm-1.6)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -no-specialization to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -explaintypes to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -nowarn to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xcheckinit to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xelide-below to -2147483648 (-2147483648)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xlog-implicits to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xdisable-assertions to false (false)
+2016-04-28 14:05:20,499 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xno-uescape to false (false)
+2016-04-28 14:05:20,500 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:20,500 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfatal-warnings to false (false)
+2016-04-28 14:05:20,500 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:20,500 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:20,500 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:20,500  INFO [main] - ScalaProject - setting additional parameters: 
+2016-04-28 14:05:20,500  INFO [main] - ScalaProject - BM: SBT enhanced Build Manager for SpecificScalaVersion(2,11,8,Final) Scala library
+2016-04-28 14:05:20,500  INFO [main] - ScalaBuilder - Building project expr-eval-code-completion
+2016-04-28 14:05:20,501  WARN [main] - ScalaProject - Project expr-eval-code-completion has platform default sourceLevel.
+2016-04-28 14:05:20,501  WARN [main] - ScalaProject - Project expr-eval-code-completion runs on platform default installation.
+2016-04-28 14:05:20,501  INFO [main] - EclipseSbtBuildManager - Running compiler using Scala SpecificScalaVersion(2,11,8,Final): 
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library.source/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library.source-2.11.8.v20160304-115712-1706a37eb8.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-compiler-2.11.8.v20160304-115712-1706a37eb8.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-compiler.source/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-compiler.source-2.11.8.v20160304-115712-1706a37eb8.jar))
+	ScalaModule(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar,Some(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect.source/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect.source-2.11.8.v20160304-115712-1706a37eb8.jar)))
+2016-04-28 14:05:20,504 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:20,504 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:20,504 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,504 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -feature to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -g to vars (vars)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -optimise to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -target to jvm-1.6 (jvm-1.6)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -no-specialization to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -explaintypes to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -nowarn to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xcheckinit to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xelide-below to -2147483648 (-2147483648)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xlog-implicits to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xdisable-assertions to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xno-uescape to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfatal-warnings to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:20,505 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -feature to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -g to vars (vars)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -optimise to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -target to jvm-1.6 (jvm-1.6)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -no-specialization to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -explaintypes to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -nowarn to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xcheckinit to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xelide-below to -2147483648 (-2147483648)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xlog-implicits to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xdisable-assertions to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xno-uescape to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfatal-warnings to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:20,508 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:20,509 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:20,511 DEBUG [main] - EclipseSbtBuildManager - 
+Initial source changes: 
+	removed:Set()
+	added: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src/debug/CodeCompletion.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src/debug/CodeCompletion.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+2016-04-28 14:05:20,511 DEBUG [main] - EclipseSbtBuildManager - All initially invalidated sources: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src/debug/CodeCompletion.scala)
+
+2016-04-28 14:05:20,511 DEBUG [main] - EclipseSbtBuildManager - Created transactional ClassfileManager with tempDir = /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/.tmpBin
+2016-04-28 14:05:20,511 DEBUG [main] - EclipseSbtBuildManager - Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+2016-04-28 14:05:20,511 DEBUG [main] - EclipseSbtBuildManager - About to delete class files:
+
+2016-04-28 14:05:20,511 DEBUG [main] - EclipseSbtBuildManager - We backup classs files:
+
+2016-04-28 14:05:20,512  INFO [main] - EclipseSbtBuildManager - Compiling 1 Scala source to /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin...
+2016-04-28 14:05:20,608 DEBUG [main] - EclipseSbtBuildManager - Running cached compiler 738a00d5, interfacing (CompilerInterface) with Scala compiler version 2.11.8
+2016-04-28 14:05:20,609 DEBUG [main] - EclipseSbtBuildManager - Calling Scala compiler with arguments  (CompilerInterface):
+	-javabootclasspath
+	/usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+	-javaextdirs
+	 
+	-bootclasspath
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+	-encoding
+	UTF-8
+	-classpath
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:24,317 DEBUG [main] - EclipseSbtBuildManager - Scala compilation took 3.805139155 s
+2016-04-28 14:05:24,318 DEBUG [main] - EclipseSbtBuildManager - Registering generated classes:
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin/debug/CodeCompletion$delayedInit$body.class
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin/debug/CodeCompletion$.class
+	/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin/debug/CodeCompletion.class
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Invalidating by inheritance (transitively)...
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Initial set of included nodes: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src/debug/CodeCompletion.scala)
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Invalidated by transitive public inheritance: Set(/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src/debug/CodeCompletion.scala)
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Invalidated by direct dependency: Set()
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - New invalidations:
+	Set()
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Initial set of included nodes: Set()
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+2016-04-28 14:05:24,319 DEBUG [main] - EclipseSbtBuildManager - Removing the temporary directory used for backing up class files: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/.tmpBin
+2016-04-28 14:05:24,444 DEBUG [ForkJoinPool-1-worker-13] - ScalaJdiEventDispatcherSubordinate - VMStartEvent: 0
+2016-04-28 14:05:24,463 DEBUG [ForkJoinPool-1-worker-15] - ScalaJdiEventDispatcherSubordinate - ThreadStartEvent: 3
+2016-04-28 14:05:24,476 DEBUG [ForkJoinPool-1-worker-13] - ScalaJdiEventDispatcherSubordinate - ClassPrepareEvent: 5
+2016-04-28 14:05:24,485 DEBUG [ForkJoinPool-1-worker-15] - ScalaJdiEventDispatcherSubordinate - ClassPrepareEvent: 6
+2016-04-28 14:05:24,547 DEBUG [ForkJoinPool-1-worker-13] - ScalaJdiEventDispatcherSubordinate - ClassPrepareEvent: 6
+2016-04-28 14:05:24,585 DEBUG [ForkJoinPool-1-worker-15] - ScalaJdiEventDispatcherSubordinate - BreakpointEvent: 7
+2016-04-28 14:05:24,590  INFO [Worker-5] - ScalaDebugTestSession - SUSPENDED at: CodeCompletion$.foo(Int, Option):26
+2016-04-28 14:05:24,591 DEBUG [main] - JdiExpressionEvaluator$ - Classpath: file:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin/
+2016-04-28 14:05:24,592  INFO [main] - JdiExpressionEvaluator - Compiling:
+	1
+2016-04-28 14:05:24,704  WARN [main] - ScalaProject - Project expr-eval-code-completion has platform default sourceLevel.
+2016-04-28 14:05:24,704  WARN [main] - ScalaProject - Project expr-eval-code-completion runs on platform default installation.
+2016-04-28 14:05:24,705 DEBUG [main] - ScalaProject - Added output folder: F/expr-eval-code-completion/src: F/expr-eval-code-completion/bin
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - javabootclasspath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - javaextdirs:  
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - scalabootclasspath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - user classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar:/localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -deprecation to false (false)
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -unchecked to false (false)
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -verbose to false (false)
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xexperimental to false (false)
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xfuture to false (false)
+2016-04-28 14:05:24,706 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Xpluginsdir to misc/scala-devel/plugins (misc/scala-devel/plugins)
+2016-04-28 14:05:24,707 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-debug to false (false)
+2016-04-28 14:05:24,707 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-verbose to false (false)
+2016-04-28 14:05:24,707 DEBUG [main] - ScalaProject - [expr-eval-code-completion] initializing -Ypresentation-delay to 0 (0)
+2016-04-28 14:05:24,707  INFO [main] - ScalaProject - setting additional parameters: 
+2016-04-28 14:05:24,898 DEBUG [main] - PresentationCompilerProxy - Presentation compiler classpath: merged classpath (directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/resources.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/rt.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/jsse.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/jce.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/charsets.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/jfr.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/jfxrt.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/localedata.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/nashorn.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunjce_provider.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/cldrdata.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/dnsns.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/zipfs.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunpkcs11.jar
+directory classpath: /usr/lib/jvm/jdk1.8.0_25/jre/lib/ext/sunec.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-library/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-library-2.11.8.v20160304-115712-1706a37eb8.jar
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/bin
+directory classpath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/m2repo/p2/osgi/bundle/org.scala-lang.scala-reflect/2.11.8.v20160304-115712-1706a37eb8/org.scala-lang.scala-reflect-2.11.8.v20160304-115712-1706a37eb8.jar
+sourcepath: /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/work/data/expr-eval-code-completion/src)
+2016-04-28 14:05:24,899 DEBUG [main] - PresentationCompilerActivityListener - Starting PresentationCompilerActivityListener for project expr-eval-code-completion
+2016-04-28 14:05:29,407 DEBUG [main] - SimpleContentProposalProvider$ - Cannot load returned type for someNull
+com.sun.jdi.ClassNotLoadedException: Type has not been loaded
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.create(ReferenceTypeImpl.java:1435)
+	at org.eclipse.jdi.internal.TypeImpl.create(TypeImpl.java:68)
+	at org.eclipse.jdi.internal.MethodImpl.returnType(MethodImpl.java:490)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getReturnedTypeNameViaJdi(SimpleContentProposalProvider.scala:155)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:148)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:145)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getMembersNamesViaJdi(SimpleContentProposalProvider.scala:151)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getDistinctProposalsForThisViaJdi(SimpleContentProposalProvider.scala:126)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getMembersOfThis(SimpleContentProposalProvider.scala:101)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:91)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:88)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:88)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:87)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForEvaluationContext(SimpleContentProposalProvider.scala:87)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForCurrentContext(SimpleContentProposalProvider.scala:84)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.proposalsForCurrentContext(SimpleContentProposalProvider.scala:46)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.prepareProposals(SimpleContentProposalProvider.scala:51)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.getProposals(SimpleContentProposalProvider.scala:39)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProviderIntegrationTest.testGetProposalForFieldOfTypeNull(SimpleContentProposalProviderIntegrationTest.scala:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:87)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+2016-04-28 14:05:29,603  INFO [main] - JdiExpressionEvaluator - Compiling:
+	1
+2016-04-28 14:05:33,093 DEBUG [main] - SimpleContentProposalProvider$ - Cannot load returned type for someNull
+com.sun.jdi.ClassNotLoadedException: Type has not been loaded
+	at org.eclipse.jdi.internal.ReferenceTypeImpl.create(ReferenceTypeImpl.java:1435)
+	at org.eclipse.jdi.internal.TypeImpl.create(TypeImpl.java:68)
+	at org.eclipse.jdi.internal.MethodImpl.returnType(MethodImpl.java:490)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getReturnedTypeNameViaJdi(SimpleContentProposalProvider.scala:155)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:148)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$getMembersNamesViaJdi$1.apply(SimpleContentProposalProvider.scala:145)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getMembersNamesViaJdi(SimpleContentProposalProvider.scala:151)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.getDistinctProposalsForThisViaJdi(SimpleContentProposalProvider.scala:126)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.org$scalaide$debug$internal$ui$completion$SimpleContentProposalProvider$$getMembersOfThis(SimpleContentProposalProvider.scala:101)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:91)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1$$anonfun$apply$1.apply(SimpleContentProposalProvider.scala:88)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:88)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$$anonfun$proposalsForEvaluationContext$1.apply(SimpleContentProposalProvider.scala:87)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForEvaluationContext(SimpleContentProposalProvider.scala:87)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider$.proposalsForCurrentContext(SimpleContentProposalProvider.scala:84)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.proposalsForCurrentContext(SimpleContentProposalProvider.scala:46)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.prepareProposals(SimpleContentProposalProvider.scala:51)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProvider.getProposals(SimpleContentProposalProvider.scala:39)
+	at org.scalaide.debug.internal.ui.completion.SimpleContentProposalProviderIntegrationTest.testGetProposals(SimpleContentProposalProviderIntegrationTest.scala:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:87)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+2016-04-28 14:05:33,095  INFO [main] - SimpleContentProposalProviderIntegrationTest$ - Test SimpleContentProposalProviderIntegrationTest finished
+2016-04-28 14:05:33,096 DEBUG [ForkJoinPool-1-worker-11] - ScalaJdiEventDispatcherSubordinate - VMDisconnectEvent: 0
+2016-04-28 14:05:33,115  INFO [main] - ScalaProject - shutting down compilers for expr-eval-code-completion
+2016-04-28 14:05:33,115 DEBUG [main] - PresentationCompilerActivityListener - Stopping PresentationCompilerActivityListener for project expr-eval-code-completion
+2016-04-28 14:05:33,115  INFO [main] - ScalaPresentationCompiler - shutting down presentation compiler on project: expr-eval-code-completion
+Tests run: 588, Failures: 0, Errors: 1, Skipped: 27, Time elapsed: 1,215.67 sec <<< FAILURE!
+
+Results :
+
+Tests in error: 
+  short$u0020$amp$u0020sth(org.scalaide.debug.internal.expression.proxies.primitives.operations.bitwise.BitwiseAndTest): Timeout occurred while waiting for packet 54193.
+
+Tests run: 588, Failures: 0, Errors: 1, Skipped: 27
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.scala-ide.sdt.build ........................... SUCCESS [1.347s]
+[INFO] org.scala-ide.sdt.aspects ......................... SUCCESS [8.793s]
+[INFO] org.scala-ide.sdt.core ............................ SUCCESS [1:31.802s]
+[INFO] org.scala-ide.sdt.core.tests ...................... SUCCESS [9:05.801s]
+[INFO] org.scala-ide.sdt.spy ............................. SUCCESS [8.316s]
+[INFO] org.scala-ide.sdt.debug ........................... SUCCESS [29.483s]
+[INFO] org.scala-ide.sdt.debug.tests ..................... SUCCESS [2:09.159s]
+[INFO] org.scala-ide.sdt.debug.expression ................ SUCCESS [38.651s]
+[INFO] org.scala-ide.sdt.debug.expression.tests .......... FAILURE [20:55.904s]
+[INFO] org.scala-ide.sdt.weaving.feature ................. SKIPPED
+[INFO] org.scala-ide.sdt.feature ......................... SKIPPED
+[INFO] org.scala-ide.sdt.dev.feature ..................... SKIPPED
+[INFO] org.scala-ide.sdt.source.feature .................. SKIPPED
+[INFO] org.scala-ide.sdt.update-site ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 36:06.526s
+[INFO] Finished at: Thu Apr 28 14:05:35 CEST 2016
+[INFO] Final Memory: 145M/821M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.eclipse.tycho:tycho-surefire-plugin:0.21.0:test (default-test) on project org.scala-ide.sdt.debug.expression.tests: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /localhome/jenkinside/workspace/ghprb-scala-ide-multi-conf/eclipse_platform/eclipse-mars/scala-ide/org.scala-ide.sdt.debug.expression.tests/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.scala-ide.sdt.debug.expression.tests
+Build step 'Execute shell' marked build as failure
+Recording test results
+Finished: FAILURE
